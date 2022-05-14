@@ -110,10 +110,15 @@
                 <div class="form-field">
 
                     <label for="name" class="form-label name">Имя</label>
-                    <input type="text" id="name" class="form-input"/>
-                    <svg class="icon-person" width="18px" height="18px">
+                    
+                    
+                    <div class="input-icon">
+                      
+                      <input type="text" id="name" class="form-input"/>                   
+                      <svg class="icon-person" width="18px" height="18px">
                         <use href="./images/icons-modal-opt.svg#icon-person"></use>
-                    </svg>
+                      </svg>
+                    </div>
                     
                     
                 </div>
@@ -121,31 +126,35 @@
                 <div class="form-field">
 
                     <label for="phone" class="form-label">Телефон</label>
-                    <input id="phone" class="form-input"/>
-                    <svg class="icon-person" width="18px" height="18px">
-                      <use href="./images/icons-modal-opt.svg#icon-phone"></use>
-                    </svg>
                     
-
+                    <div class="input-icon">
+                      
+                      <input id="phone" class="form-input"/>
+                      <svg class="icon-person" width="18px" height="18px">
+                        <use href="./images/icons-modal-opt.svg#icon-phone"></use>
+                      </svg>
+                    </div>
+                    
                 </div>
 
                 <div class="form-field">
 
                     <label for="email" class="form-label">Почта</label>
-                    <input id="email" type="email" class="form-input"/>
-                    <svg class="icon-person" width="18px" height="18px">
-                      <use href="./images/icons-modal-opt.svg#icon-email"></use>
-                    </svg>
                     
-                    
-                
+                      <div class="input-icon">
+                        <input id="email" type="email" class="form-input"/>
+                        <svg class="icon-person" width="18px" height="18px">
+                          <use href="./images/icons-modal-opt.svg#icon-email"></use>
+                        </svg>                    
+                        
+                     </div> 
+                                    
                 </div>
 
                 <div class="form-field">
 
                     <label for="comment" class="form-label">Комментарий</label>
-                    <textarea id="comment" placeholder="Введите текст" rows="10" class="form-text-area" autocomplete="off">
-                    </textarea>
+                    <textarea id="comment" placeholder="Введите текст" class="form-text-area"></textarea>
                     
                 </div>
 
